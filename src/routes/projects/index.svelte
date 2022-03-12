@@ -41,15 +41,13 @@
 	const projects: IProjectCard[] = [
 		{
 			title: 'TikToka™ videos downloader',
-			description:
-				'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
+			description: 'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
 			slug: 'https://api.tiktokvideos.download/',
 			icon: '',
 		},
 		{
 			title: 'TikToka™ videos archive',
-			description:
-				'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
+			description: 'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
 			slug: 'https://tiktokvideos.download/',
 			icon: '',
 		},
@@ -66,9 +64,7 @@
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Project </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
-		<p>
-			Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring
-		</p>
+		<p> Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring </p>
 	</div>
 	{#if projects.length > 0}
 		{#each projects as project}

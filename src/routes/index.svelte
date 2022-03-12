@@ -51,15 +51,13 @@
 	const projects: IProjectCard[] = [
 		{
 			title: 'TikToka™ videos downloader',
-			description:
-				'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
+			description: 'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
 			slug: 'https://api.tiktokvideos.download/',
 			icon: '',
 		},
 		{
 			title: 'TikToka™ videos archive',
-			description:
-				'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
+			description: 'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
 			slug: 'https://tiktokvideos.download/',
 			icon: '',
 		},
@@ -77,14 +75,16 @@
 
 <!-- Start: Home Page container -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-		Hey, I’m Tiktoka
-	</h1>
+	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Hey, I’m Tiktoka </h1>
 	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		we are currently working on serveral tools for your using tiktok to brand research such as video download,influencer analytics,
-		influencer email collection,user comment monitor,giveaway tool,livestreaming toolkit etc
-		<a sveltekit:prefetch href="/project" aria-label="Tiktoka tools" class="text-blue-700 hover:text-blue-800 transition"
-			>learn more about Projects.</a
+		we are currently working on serveral tools for your using tiktok to brand research such as video
+		download,influencer analytics, influencer email collection,user comment monitor,giveaway tool,livestreaming
+		toolkit etc
+		<a
+			sveltekit:prefetch
+			href="/project"
+			aria-label="Tiktoka tools"
+			class="text-blue-700 hover:text-blue-800 transition">learn more about Projects.</a
 		>
 	</p>
 

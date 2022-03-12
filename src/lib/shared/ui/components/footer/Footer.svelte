@@ -37,7 +37,9 @@
 			>
 		</div>
 		<div class="flex flex-col space-y-4">
-			<a sveltekit:prefetch href="/snippets" class="{linkClass}" aria-label="{'Footer Snippets link'}">Tutorials</a>
+			<a sveltekit:prefetch href="/snippets" class="{linkClass}" aria-label="{'Footer Snippets link'}"
+				>Tutorials</a
+			>
 			<a sveltekit:prefetch href="/tags" class="{linkClass}" aria-label="{'Footer tags link'}">Tags</a>
 		</div>
 	</div>

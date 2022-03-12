@@ -1,9 +1,8 @@
 <script lang="ts">
 	import ExternalLink from '$ui/components/external-link/ExternalLink.svelte';
 	import type { IVideoCard } from '$models/interfaces/ivideo-card.interface';
-	import type { IVideoSnippet } from '$models/interfaces/ivideo-snippet.interface.interface';
+	import type { IVideoSnippet } from '$models/interfaces/ivideo-snippet.interface';
 	import type { IVideoStatistics } from '$models/interfaces/ivideo-statistics.interface';
-
 
 	// Start: Local Imports
 	// Components

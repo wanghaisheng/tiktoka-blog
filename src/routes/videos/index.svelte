@@ -42,29 +42,26 @@
 	};
 
 	const videos: IVideoCard[] = [
-		{  
-			id:eXVYJkcjyMs1,
-			snippet:{
-				title:'first video',
-				description:'xxxxxxxxxxxx'
+		{
+			id: 'eXVYJkcjyMs1',
+			snippet: {
+				title: 'first video',
+				description: 'xxxxxxxxxxxx',
 			},
-			statistics:{
-				viewCount:13456
-			}
-
-		},
-		{  
-			id:eXVYJkcjyMs,
-			snippet:{
-				title:'second video',
-				description:'xxxxxxxxxxxx'
+			statistics: {
+				viewCount: 13456,
 			},
-			statistics:{
-				viewCount:13456
-			}
-
 		},
-
+		{
+			id: 'eXVYJkcjyMs',
+			snippet: {
+				title: 'second video',
+				description: 'xxxxxxxxxxxx',
+			},
+			statistics: {
+				viewCount: 13456,
+			},
+		},
 	];
 
 	// End: Local component properties
@@ -78,9 +75,7 @@
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Project </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
-		<p>
-			Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring
-		</p>
+		<p> Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring </p>
 	</div>
 	{#if videos.length > 0}
 		{#each videos as video}
