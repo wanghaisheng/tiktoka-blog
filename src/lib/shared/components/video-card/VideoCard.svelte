@@ -23,7 +23,7 @@
 </script>
 
 {#if video && video?.id}
-	<ExternalLink href="{video.id}" ariaLabel="{video.snippet.title}">
+	<ExternalLink href="{`https://www.youtube.com/watch?v=${video.id}`}" ariaLabel="{video.snippet.title}">
 		<div
 			class="mb-4 hover:transition-shadow hover:shadow dark:hover:transition-shadow dark:hover:shadow-dark flex items-center border border-gray-200 dark:border-gray-800 rounded p-4"
 		>

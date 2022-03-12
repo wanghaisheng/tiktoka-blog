@@ -1,17 +1,14 @@
 import { EnvironmentName } from '$models/enums/environment-name.enum';
 import { EnvironmentType } from '$models/enums/environment-type.enum';
-import {
-	SVELTEKIT_DATA_ENPOINTS_PROD,
-	SVELTEKIT_SEARCH_ENPOINTS_PROD,
-} from '$models/enums/sveltekit-endpoint.prod.enum';
+import { SVELTEKIT_DATA_ENPOINTS, SVELTEKIT_SEARCH_ENPOINTS } from '$models/enums/sveltekit-endpoint.enum';
 import type { SVELTEKIT_STARTER_ENPOINT_CONFIG } from '$models/types/sveltekit-endpoits.type';
 import type { ISveltekitStarterEnvironmentConfig } from '$models/interfaces/isveltekit-strater-environment.interface';
 
 export const environment: ISveltekitStarterEnvironmentConfig<SVELTEKIT_STARTER_ENPOINT_CONFIG> = {
-	name: EnvironmentName.PRODUCTION,
-	environmentType: EnvironmentType.PROD,
-	production: true,
-	isDebugMode: false,
+	name: EnvironmentName.LOCAL,
+	environmentType: EnvironmentType.LOCAL,
+	production: false,
+	isDebugMode: true,
 	launchURL: import.meta.env.SVELTEKIT_BLOG_BASE_URL,
 	apiUrls: {
 		CHUCK_NORRIS: import.meta.env.SVELTEKIT_BLOG_CHUCK_NORRIS_API_URL,
@@ -23,8 +20,8 @@ export const environment: ISveltekitStarterEnvironmentConfig<SVELTEKIT_STARTER_E
 			? import.meta.env.SVELTEKIT_BLOG_CHUCK_NORRIS_API_LANG
 			: 'en-US',
 		endPoints: {
-			SEARCH: SVELTEKIT_SEARCH_ENPOINTS_PROD.SEARCH,
-			SERVICE: SVELTEKIT_DATA_ENPOINTS_PROD.SERVICE,
+			SEARCH: SVELTEKIT_SEARCH_ENPOINTS.SEARCH,
+			SERVICE: SVELTEKIT_DATA_ENPOINTS.SERVICE,
 		},
 	},
 	sessionConfig: {
