@@ -41,6 +41,7 @@
 				>Tutorials</a
 			>
 			<a sveltekit:prefetch href="/tags" class="{linkClass}" aria-label="{'Footer tags link'}">Tags</a>
+			<a sveltekit:prefetch href="/videos" class="{linkClass}" aria-label="{'Footer videos link'}">Videos</a>
 		</div>
 	</div>
 </footer>

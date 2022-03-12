@@ -35,7 +35,7 @@
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
 		title: 'Video | TikToka™ tutorial',
-		description: 'Project page of TikToka™ ',
+		description: 'Video page of TikToka™ ',
 		url: '/videos',
 		keywords: ['TikToka™', 'TikToka™ tool', 'TikToka™ video tool'],
 		searchUrl: '/videos',
@@ -73,7 +73,7 @@
 
 <!-- Start: Video page section -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Project </h1>
+	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Video </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
 		<p> Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring </p>
 	</div>
