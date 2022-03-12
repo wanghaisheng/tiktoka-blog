@@ -1,5 +1,5 @@
 {
-	"name": "sveltekit-blog",
+	"name": "tiktoka-blog",
 	"description": "A sveltekit blog starter project with typescript, tailwindcss, postcss, scss, husky, and storybook setup",
 	"version": "1.0.0",
 	"author": {
@@ -188,5 +188,6 @@
 	"type": "module",
 	"engines": {
 		"node": ">= 14.16.1"
-	}
+	},
+	"dependencies": {}
 }

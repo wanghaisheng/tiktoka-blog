@@ -39,10 +39,10 @@
 	$: tags = [...new Set(listWithDuplicatetags)];
 
 	$: metaData = {
-		title: 'Tags | Sveltekit Blog',
-		description: 'Tags page of Sveltekit blog starter project',
+		title: 'Tags | Tiktoka Blog',
+		description: 'Tags page of | Tiktoka blog',
 		url: '/tags',
-		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter tags', 'svelte starter tags', ...tags],
+		keywords: ['tiktok', 'douyin', 'tiktok video'],
 		searchUrl: '/tags',
 	};
 

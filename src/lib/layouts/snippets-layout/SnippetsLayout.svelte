@@ -36,7 +36,7 @@
 	 * @type {IMetaTagProperties}
 	 */
 	let metaData = {
-		title: `${title} | Sveltekit`,
+		title: `${title} | Tiktoka`,
 		description: `${description}`,
 		url: `/snippets/${slug}`,
 		keywords: ['sveltekit blog', 'sveltekit starter', 'svelte starter', 'svelte', ...tags],
@@ -57,7 +57,7 @@
 	$: {
 		if (title && slug) {
 			metaData = {
-				title: `${title} | Sveltekit`,
+				title: `${title} | Tiktoka`,
 				url: `/snippets/${slug}`,
 				keywords: ['sveltekit blog', 'sveltekit starter', 'svelte starter', 'svelte', ...tags],
 				searchUrl: `/snippets/${slug}`,
@@ -104,8 +104,8 @@
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2">
 		<div class="flex items-center">
 			<img
-				alt="{'Sveltekit Blogger'}"
-				src="{'/images/author/sveltekit-blogger.svg'}"
+				alt="{'Tiktoka'}"
+				src="{'/images/author/tiktoka-blogger.svg'}"
 				class="rounded-full w-7 h-7"
 			/>
 			<p class="text-sm text-gray-700 dark:text-gray-300 ml-2">

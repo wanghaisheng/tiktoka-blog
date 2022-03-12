@@ -39,7 +39,7 @@
 	 * @type {IMetaTagProperties}
 	 */
 	let metaData: Partial<IMetaTagProperties> = {
-		title: `${convertToSentence(tag)} | Sveltekit`,
+		title: `${convertToSentence(tag)} | Tiktoka`,
 		description:
 			'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable project. (sveltekit, typescript, tailwindcss, postcss, husky, Storybook).',
 		url: `/tags/${tag}`,

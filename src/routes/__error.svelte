@@ -53,7 +53,7 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: `${status} | Sveltekit`,
+		title: `${status} | Tiktoka`,
 		description: '404 page of Sveltekit starter project',
 	};
 </script>

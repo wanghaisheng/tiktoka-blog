@@ -4,7 +4,7 @@ title: 'A Second Snippet'
 description: 'Page views over a given range.'
 logo: 'google-analytics.png'
 slug: "second-snippet"
-author: "Sveltekit Blogger"
+author: "Tiktoka"
 date: "2021-08-01"
 banner: "/images/snippets/second-snippet/banner.jpg"
 published: true

@@ -1,6 +1,9 @@
 <script lang="ts">
 	import ExternalLink from '$ui/components/external-link/ExternalLink.svelte';
-	import type { IProjectCard } from '$models/interfaces/iproject-card.interface';
+	import type { IVideoCard } from '$models/interfaces/ivideo-card.interface';
+	import type { IVideoSnippet } from '$models/interfaces/ivideo-snippet.interface.interface';
+	import type { IVideoStatistics } from '$models/interfaces/ivideo-statistics.interface';
+
 
 	// Start: Local Imports
 	// Components
@@ -13,15 +16,15 @@
 	/**
 	 * @type {IBlogPostSummary}
 	 */
-	export let project!: IProjectCard;
+	export let video!: IVideoCard;
 	// End: Exported Properties
 
 	// TODO
 	let views = 2000;
 </script>
 
-{#if project && project?.slug}
-	<ExternalLink href="{project.slug}" ariaLabel="{project.title}">
+{#if video && video?.id}
+	<ExternalLink href="{video.id}" ariaLabel="{video.snippet.title}">
 		<div
 			class="mb-4 hover:transition-shadow hover:shadow dark:hover:transition-shadow dark:hover:shadow-dark flex items-center border border-gray-200 dark:border-gray-800 rounded p-4"
 		>
@@ -37,10 +40,10 @@
 			</div>
 			<div>
 				<h3 class="text-lg font-bold tracking-tight text-gray-900 dark:text-gray-100">
-					{project?.title}
+					{video?.snippet.title}
 				</h3>
 				<p class="leading-5 text-gray-700 dark:text-gray-300">
-					{project?.description}
+					{video?.snippet.description}
 				</p>
 			</div>
 		</div>

@@ -121,7 +121,7 @@
 			'@context': 'https://schema.org',
 			'@type': 'Organization',
 			url: metaData.url,
-			logo: `${BASE_URL}/favicon.ico`,
+			logo: `${BASE_URL}/favicon/favicon.ico`,
 		})}
 	{/if}
 

@@ -42,25 +42,25 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: `Sveltekit Blogger | Sveltekit`,
+		title: `Tiktoka | Douyin tookit`,
 		description:
-			'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable project. (sveltekit, typescript, tailwindcss, postcss, husky, Storybook).',
-		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter home'],
+			'brand research such as video download,influencer analytics,influencer email collection,user comment monitor,giveaway tool,livestreaming toolkit etc.',
+		keywords: ['tiktok', 'douyin', 'tiktok video'],
 	};
 
 	const projects: IProjectCard[] = [
 		{
-			title: 'Sveltekit Starter',
+			title: 'TikToka™ videos downloader',
 			description:
-				'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-starter',
+				'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
+			slug: 'https://api.tiktokvideos.download/',
 			icon: '',
 		},
 		{
-			title: 'Sveltekit Blog',
+			title: 'TikToka™ videos archive',
 			description:
-				'Sveltekit Blog starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-blog',
+				'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
+			slug: 'https://tiktokvideos.download/',
 			icon: '',
 		},
 	];
@@ -78,13 +78,13 @@
 <!-- Start: Home Page container -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-		Hey, I’m Sveltekit Blogger
+		Hey, I’m Tiktoka
 	</h1>
 	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		I'm a developer and creator. I work as the Software Developer at XYZ. You’ve found my personal slice of the
-		internet –&nbsp; while you're here
-		<a sveltekit:prefetch href="/about" aria-label="about me" class="text-blue-700 hover:text-blue-800 transition"
-			>learn more about me.</a
+		we are currently working on serveral tools for your using tiktok to brand research such as video download,influencer analytics,
+		influencer email collection,user comment monitor,giveaway tool,livestreaming toolkit etc
+		<a sveltekit:prefetch href="/project" aria-label="Tiktoka tools" class="text-blue-700 hover:text-blue-800 transition"
+			>learn more about Projects.</a
 		>
 	</p>
 

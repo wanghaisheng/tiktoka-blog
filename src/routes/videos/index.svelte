@@ -19,11 +19,14 @@
 	// Components
 	import HeadTags from '$components/head-tags/HeadTags.svelte';
 	import ExternalLink from '$ui/components/external-link/ExternalLink.svelte';
-	import ProjectCard from '$components/project-card/ProjectCard.svelte';
+	import VideoCard from '$components/video-card/VideoCard.svelte';
 
 	// Models
 	import type { IMetaTagProperties } from '$models/interfaces/imeta-tag-properties.interface';
-	import type { IProjectCard } from '$models/interfaces/iproject-card.interface';
+	import type { IVideoCard } from '$models/interfaces/ivideo-card.interface';
+	import type { IVideoSnippet } from '$models/interfaces/ivideo-snippet.interface';
+	import type { IVideoStatistics } from '$models/interfaces/ivideo-statistics.interface';
+
 	// End: Local Imports
 
 	// Start: Local component properties
@@ -31,28 +34,37 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'Project | TikToka™ Tools',
+		title: 'Video | TikToka™ tutorial',
 		description: 'Project page of TikToka™ ',
-		url: '/projects',
+		url: '/videos',
 		keywords: ['TikToka™', 'TikToka™ tool', 'TikToka™ video tool'],
-		searchUrl: '/projects',
+		searchUrl: '/videos',
 	};
 
-	const projects: IProjectCard[] = [
-		{
-			title: 'TikToka™ videos downloader',
-			description:
-				'TikToka™ tiktok/douyin videos Batch Download tookit douyin/TikTok No Watermark.',
-			slug: 'https://api.tiktokvideos.download/',
-			icon: '',
+	const videos: IVideoCard[] = [
+		{  
+			id:eXVYJkcjyMs1,
+			snippet:{
+				title:'first video',
+				description:'xxxxxxxxxxxx'
+			},
+			statistics:{
+				viewCount:13456
+			}
+
 		},
-		{
-			title: 'TikToka™ videos archive',
-			description:
-				'TikToka™ tiktok/douyin popular influencer video backup mirror,instant archive',
-			slug: 'https://tiktokvideos.download/',
-			icon: '',
+		{  
+			id:eXVYJkcjyMs,
+			snippet:{
+				title:'second video',
+				description:'xxxxxxxxxxxx'
+			},
+			statistics:{
+				viewCount:13456
+			}
+
 		},
+
 	];
 
 	// End: Local component properties
@@ -62,7 +74,7 @@
 <HeadTags metaData="{metaData}" />
 <!-- End: Header Tag -->
 
-<!-- Start: Project page section -->
+<!-- Start: Video page section -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Project </h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
@@ -70,10 +82,10 @@
 			Hey, I'm Tiktoka.Find useful resources helping you do brand research and brand monitoring
 		</p>
 	</div>
-	{#if projects.length > 0}
-		{#each projects as project}
-			<ProjectCard project="{project}" />
+	{#if videos.length > 0}
+		{#each videos as video}
+			<VideoCard video="{video}" />
 		{/each}
 	{/if}
 </div>
-<!-- End: Project page section -->
+<!-- End: Video page section -->

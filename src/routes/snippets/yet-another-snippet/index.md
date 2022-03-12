@@ -4,7 +4,7 @@ title: 'Yet Another Snippet'
 description: 'Page views over a given range.'
 logo: 'google-analytics.png'
 slug: "yet-another-snippet"
-author: "Sveltekit Blogger"
+author: "Tiktoka"
 date: "2021-08-01"
 banner: "/images/snippets/yet-another-snippet/banner.jpg"
 published: true

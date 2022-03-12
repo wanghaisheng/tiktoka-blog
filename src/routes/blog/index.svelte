@@ -28,10 +28,10 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'Blogs | Sveltekit Blog',
-		description: 'Blog page of Sveltekit blog starter project',
+		title: 'Blogs | Tiktoka Blog',
+		description: 'Blog page of | Tiktoka blog',
 		url: '/blog',
-		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter about'],
+		keywords: ['tiktok', 'douyin', 'tiktok video'],
 		searchUrl: '/blog',
 	};
 

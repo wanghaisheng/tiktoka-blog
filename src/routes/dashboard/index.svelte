@@ -30,8 +30,8 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'Dashboard | Sveltekit Blog',
-		description: 'Dashboard page of Sveltekit blog starter project',
+		title: 'Dashboard | Tiktoka Blog',
+		description: 'Dashboard page of | Tiktoka blog',
 		url: '/dashboard',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter dashboard'],
 		searchUrl: '/dashboard',
